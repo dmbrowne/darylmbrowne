@@ -1,0 +1,129 @@
+#environment{
+	width: 100%;
+	overflow: hidden;
+	-webkit-perspective:500px;
+	-moz-perspective:500px;
+	-ms-perspective:500px;
+	-o-perspective:500px;
+	perspective:500px;
+	-webkit-perspective-origin:center center;
+	-moz-perspective-origin:center center;
+	-ms-perspective-origin:center center;
+	-o-perspective-origin:center center;
+	perspective-origin:center center;
+	position: relative;
+}
+#contentWrapper{
+	-webkit-transform:translate3d(0px, 0, 0px);
+	-moz-transform:translate3d(0px, 0, 0px);
+	-ms-transform:translate3d(0px, 0, 0px);
+	-o-transform:translate3d(0px, 0, 0px);
+	transform:translate3d(0px, 0, 0px);
+	-webkit-transform-style:preserve-3d;
+	-moz-transform-style:preserve-3d;
+	-ms-transform-style:preserve-3d;
+	-o-transform-style:preserve-3d;
+	transform-style:preserve-3d;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: -webkit-transform 600ms;
+	-moz-transition: -moz-transform 600ms;
+	-ms-transition: -ms-transform 600ms;
+	-o-transition: -o-transform 600ms;
+	transition: transform 600ms;
+}
+#home, section#aboutme, section#work, section#contact{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	overflow: visible;
+}
+#about{
+	overflow: visible;
+}
+.js .modal{
+	display: none;
+}
+.js #home.modal{
+	display: block;
+}
+.csstransforms.csstransitions .modal{
+	display: block;
+	opacity: .1;
+	overflow: visible;
+	-webkit-transition: opacity 500ms 400ms, -webkit-transform 400ms 1s;
+	-moz-transition: opacity 500ms 400ms, -moz-transform 300ms 1s;
+	-ms-transition: opacity 500ms 400ms, -ms-transform 300ms 1s;
+	-o-transition: opacity 500ms 400ms, -o-transform 300ms 1s;
+	transition: opacity 500ms 400ms, transform 300ms 1s;
+}
+.csstransforms.csstransitions .modal.active{
+	opacity: 1;
+}
+.csstransforms.csstransitions #home{ 
+	-webkit-transform: translate3d( 0, 0%, 0px ) rotateX(10deg);
+	-moz-transform: translate3d( 0, 0%, 0px ) rotateX(10deg);
+	-ms-transform: translate3d( 0, 0%, 0px ) rotateX(10deg);
+	-o-transform: translate3d( 0, 0%, 0px ) rotateX(10deg);
+	transform: translate3d( 0, 0%, 0px ) rotateX(10deg);
+	opacity: .3;
+}
+.csstransforms.csstransitions #home.active{ 
+	-webkit-transform: translate3d( 0, 0%, 0px ) rotateX(0deg);
+	-moz-transform: translate3d( 0, 0%, 0px ) rotateX(0deg);
+	-ms-transform: translate3d( 0, 0%, 0px ) rotateX(0deg);
+	-o-transform: translate3d( 0, 0%, 0px ) rotateX(0deg);
+	transform: translate3d( 0, 0%, 0px ) rotateX(0deg);
+	opacity: 1;
+}
+.csstransforms.csstransitions #aboutme{
+	opacity: .3;
+	-webkit-transform: translate3d( 0, 0, -1000px ) rotateX(10deg);
+	-moz-transform: translate3d( 0, 0, -1000px ) rotateX(10deg);
+	-ms-transform: translate3d( 0, 0, -1000px ) rotateX(10deg);
+	-o-transform: translate3d( 0, 0, -1000px ) rotateX(10deg);
+	transform: translate3d( 0, 0, -1000px ) rotateX(10deg);
+}
+.csstransforms.csstransitions #aboutme.active{ 
+	opacity: 1;
+	-webkit-transform: translate3d( 0, 0, -1000px ) rotateX(0deg);
+	-moz-transform: translate3d( 0, 0%, -1000px ) rotateX(0deg);
+	-ms-transform: translate3d( 0, 0%, -1000px ) rotateX(0deg);
+	-o-transform: translate3d( 0, 0%, -1000px ) rotateX(0deg);
+	transform: translate3d( 0, 0%, -1000px ) rotateX(0deg);
+}
+.csstransforms.csstransitions #work{
+	overflow: visible;
+	opacity: .3;
+	-webkit-transform: translate3d( 0, 0, -2000px ) rotateX(10deg);
+	-ms-transform: translate3d( 0, 0, -2000px ) rotateX(10deg);
+	-moz-transform: translate3d( 0, 0, -2000px ) rotateX(10deg);
+	-o-transform: translate3d( 0, 0, -2000px ) rotateX(10deg);
+	transform: translate3d( 0, 0, -2000px ) rotateX(10deg);
+}
+.csstransforms.csstransitions #work.active{
+	opacity: 1; 
+	-webkit-transform: translate3d( 0, 0%, -2000px ) rotateX(0deg);
+	-moz-transform: translate3d( 0, 0%, -2000px ) rotateX(0deg);
+	-ms-transform: translate3d( 0, 0%, -2000px ) rotateX(0deg);
+	-o-transform: translate3d( 0, 0%, -2000px ) rotateX(0deg);
+	transform: translate3d( 0, 0%, -2000px ) rotateX(0deg);
+}
+
+.csstransforms.csstransitions #contact{
+	opacity: 0.02;
+	-webkit-transform: translate3d( 0, 0, -3000px ) rotateX(10deg);
+	-moz-transform: translate3d( 0, 0, -3000px ) rotateX(10deg);
+	-ms-transform: translate3d( 0, 0, -3000px ) rotateX(10deg);
+	-o-transform: translate3d( 0, 0, -3000px ) rotateX(10deg);
+	transform: translate3d( 0, 0, -3000px ) rotateX(10deg);
+}
+.csstransforms.csstransitions #contact.active{ 
+	opacity: 1;
+	-webkit-transform: translate3d( 0, 0%, -3000px ) rotateX(0deg);
+	-moz-transform: translate3d( 0, 0%, -3000px ) rotateX(0deg);
+	-ms-transform: translate3d( 0, 0%, -3000px ) rotateX(0deg);
+	-o-transform: translate3d( 0, 0%, -3000px ) rotateX(0deg);
+	transform: translate3d( 0, 0%, -3000px ) rotateX(0deg);
+}

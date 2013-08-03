@@ -1,0 +1,145 @@
+#skills ul.graphic li{
+	display: block;
+}
+ul.skill-list{
+	float: left;
+	padding-left:10%;
+	overflow: hidden;
+	-webkit-transition: padding 300ms;
+	-moz-transition: padding 300ms;
+	-ms-transition: padding 300ms;
+	-o-transition: padding 300ms;
+	transition: padding 300ms;
+}
+ul.skill-list.graphic{
+	padding-left:2%;
+	width: 23%;
+}
+ul.skill-list li{	
+	text-shadow: 1px 1px 1px #111;
+	display: inline-block;
+	width: 45%;
+	text-align: left;
+	font-size: 1em;
+	margin:0.3em 0;
+	-webkit-transition: font 300ms;
+	-moz-transition: width 300ms 500ms, font 400ms;
+	-ms-transition: width 300ms 500ms, font 400ms;
+	-o-transition: width 300ms 500ms, font 400ms;
+	transition: width 300ms 500ms, font 400ms;
+}
+ul.skill-list li.shrink{
+	font-size: 0.7em;
+	width: 100%;
+	height: 12px;
+}
+ul.skill-list li span{
+	background:url(../images/white-star.png) no-repeat;
+	background-size: auto 100%;
+	padding: 0 0 0 30px;
+	opacity: 1;
+	-webkit-transition: opacity 500ms 200ms, padding 600ms 500ms;
+	-moz-transition: opacity 500ms, padding 600ms 300ms;
+	-ms-transition: opacity 500ms, padding 600ms 300ms;
+	-o-transition: opacity 500ms, padding 600ms 300ms;
+	transition: opacity 500ms, padding 600ms 300ms;
+}
+ul.skill-list li.hide span{
+	padding: 0;
+	opacity: 0;
+}
+ul.skill-graph{
+	float: left;
+	position: absolute;
+	z-index: -1;	
+	width: 70%; 
+	padding-left: 0; 
+	border-left:#fff 1px solid; 
+	opacity: 0; 
+	-webkit-transition:opacity 500ms 200ms;
+}
+ul.skill-graph.graphic{	
+	opacity: 1;
+	position: static;
+}
+ul.skill-graph li{ 
+	height: 12px;
+	margin: 0.2em 0;
+	background-color: #B9B9B9;
+	-webkit-transition: width 500ms;
+}
+ul.skill-graph li.hide{ 
+	width: 0 !important;
+}
+ul.skill-graph li:nth-child(odd){
+	background-color:#A0ADC4;
+}
+ul.skill-graph li.axis{
+	width: 100%;
+	background-color: transparent;
+	font-size: 0.7em;
+}
+ul.skill-graph li span{ 
+	background: none;
+	padding:0;
+	margin:0;
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+}
+ul.skill-graph li span:first-child{
+	margin-left: 25%;
+}
+ul.skill-graph li.html, ul.skill-graph li.css{ width: 100%; }
+ul.skill-graph li.jquery{ width: 95%;}
+ul.skill-graph li.xml{ width: 65%;} 
+ul.skill-graph li.sql{ width: 60%;}
+ul.skill-graph li.php{ width: 50%;}
+ul.skill-graph li.json{ width: 10%;}
+
+@media screen and (min-width: 600px){
+	#skills-extended ul.skill-list{
+		float:left;
+		width: 16%;
+	}
+	#skills-extended ul.skill-list li{
+		text-shadow: none;
+		display: block;
+		width: 99%;
+		height:20px;
+		padding-top:10px;
+		margin:0;
+		border-right:2px solid #fff;
+		font-size: 0.8em;
+	}
+	#skills-extended ul.skill-graph{
+		width: 70%;
+		border:none;
+	}
+	#skills-extended ul.skill-graph li{
+		height: 20px;
+		margin:10px 0 0;
+	}
+	#skills-extended ul.skill-graph li:nth-last-child(-2n+2){
+		border-bottom: 1px solid #fff;
+	}
+	#skills-extended ul.skill-graph li.axis{
+		margin:0;
+		padding: 10px 0;
+		font-size: 0.6em;
+		text-align: right;
+		margin-left: 20px;
+		border-top: 1px solid #fff;
+	}
+	#skills-extended  ul.skill-graph li span{
+		width: 10%;
+		font-size: 1.4em;
+		text-align: center;
+		margin-left: 10%;
+		vertical-align: top;
+		-webkit-transform:rotate(30deg);
+	}
+	#skills-extended  ul.skill-graph li span:first-child{
+		margin:0;
+	}
+}

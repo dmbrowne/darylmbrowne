@@ -1,0 +1,28 @@
+#print{
+	position: relative;
+	margin-top: 1.5%;
+	font-family: Tank;
+	font-size: 120%;
+	text-shadow:2px 2px 2px #fff;
+	text-shadow:2px 2px 3px rgba(255,255,255,0.7);
+}
+#print .biggest{
+	font-size: 270%;
+}
+#print .bigger{
+	font-size: 200%;
+	line-height: 50%;
+}
+#print .big{
+	font-size: 160%;
+	line-height: 120%;
+}
+#print .raised{
+	font-size: 110%;
+}
+#print .italic{
+	font-style: italic;
+}
+#print .top{
+	vertical-align: top;
+}

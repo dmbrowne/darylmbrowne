@@ -1,0 +1,28 @@
+.csstransforms.csstransitions .slider{
+	height:600px;
+	width:1366px;
+	-webkit-transform: none;
+	-webkit-transform-style: none;
+	-webkit-perspective:1000px;
+	positon:relative;
+}
+.csstransforms.csstransitions .cube{
+	width: 100%;
+	height: 100%;
+	-webkit-transform-style: preserve-3d;
+	position: absolute;
+	-webkit-transform: translateZ(-683px) rotateY(0deg);
+}
+.csstransforms.csstransitions .slide {
+	position: absolute;
+	width: 100%;
+	-webkit-transition: -webkit-transform 600ms;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+}
+.csstransforms.csstransitions .slide.one {
+	-webkit-transform: rotateY(0deg) translateZ(683px);
+}
+.csstransforms.csstransitions .slide.two{
+	-webkit-transform: rotateY(90deg) translateZ(683px);
+}
