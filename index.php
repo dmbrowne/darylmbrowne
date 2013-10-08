@@ -33,7 +33,7 @@ include 'menu.php';
 					<span class="bigger">development<br/></span>
 					geared towards mobile<br/>
 					<span class="top">from an</span> <span class="big">INDIVIDUAL</span> <span class="raised">with passion</span><br/> 		
-					that moves <span class="italic">parrallel</span> and <span class="raised"><span class="raised">EVOLVES</span></span><br/>
+					who moves <span class="italic">parallel</span> and <span class="raised"><span class="raised">EVOLVES</span></span><br/>
 					as fast as the
 					web industry itself...
 				</div>
