@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 	<script type="text/javascript" src="js/html5shiv.js"></script>
 	<script type="text/javascript" src="js/modernizr.custom.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700|Days+One' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/fontface.css"/>
 	<link rel="stylesheet" href="css/print-typography.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
@@ -22,6 +23,6 @@
 	<script>window.jQuery || document.write('<script src="js/jquery-1.8.0.min.js">\x3C/script>')</script>
 	<script type="text/javascript" src="js/jquery-css-transform.js"></script>
 	<script type="text/javascript" src="js/general.js"></script>
-	<script type="text/javascript" src="js/touchcube.js"></script>	
+	<script type="text/javascript" src="js/touchcube.js"></script>
 </head>
 <body>

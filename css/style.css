@@ -100,7 +100,7 @@ nav ul li a{
 	position: relative;
 	left:-3%;
 	margin: 0.8em 0;
-	font-family: Days;
+	font-family: 'Days One', sans-serif;
 	font-size: 1.9em;
 	text-align: center;
 	text-shadow: 2px 2px 2px #fff;
@@ -372,13 +372,13 @@ footer{
 	-ms-transform: none;
 	-o-transform: none;
 	transform: none;
-	
+
 	-webkit-transform-style: none;
 	-moz-transform-style: none;
 	-ms-transform-style: none;
 	-0-transform-style: none;
 	transform-style: none;
-	
+
 	-webkit-perspective:1000px;
 	-moz-perspective:1000px;
 	-ms-perspective:1000px;
@@ -402,7 +402,7 @@ footer{
 	-ms-transform: translateZ(-400px) rotateY(0deg);
 	-o-transform: translateZ(-400px) rotateY(0deg);
 	transform: translateZ(-400px) rotateY(0deg);
-	
+
 	-webkit-transition: -webkit-transform 700ms ease-in-out;
 	-moz-transition: -moz-transform 700ms ease-in-out;
 	-ms-transition: -ms-transform 700ms ease-in-out;
@@ -462,38 +462,38 @@ footer{
 }
 .csstransforms.csstransitions article.one {
 	-webkit-transform: rotateY(0deg) translateZ(300px);
-	-moz-transform: rotateY(0deg) translateZ(300px); 
-	-ms-transform: rotateY(0deg) translateZ(300px); 
-	-o-transform: rotateY(0deg) translateZ(300px); 
-	transform: rotateY(0deg) translateZ(300px);  
+	-moz-transform: rotateY(0deg) translateZ(300px);
+	-ms-transform: rotateY(0deg) translateZ(300px);
+	-o-transform: rotateY(0deg) translateZ(300px);
+	transform: rotateY(0deg) translateZ(300px);
 }
 .csstransforms.csstransitions article.two{
 	-webkit-transform: rotateY(72deg) translateZ(300px);
 	-moz-transform: rotateY(72deg) translateZ(300px);
 	-ms-transform: rotateY(72deg) translateZ(300px);
 	-o-transform: rotateY(72deg) translateZ(300px);
-	transform: rotateY(72deg) translateZ(300px); 
+	transform: rotateY(72deg) translateZ(300px);
 }
 .csstransforms.csstransitions article.three{
 	-webkit-transform: rotateY(144deg) translateZ(300px);
 	-moz-transform: rotateY(144deg) translateZ(300px);
 	-ms-transform: rotateY(144deg) translateZ(300px);
 	-o-transform: rotateY(144deg) translateZ(300px);
-	transform: rotateY(144deg) translateZ(300px); 
+	transform: rotateY(144deg) translateZ(300px);
 }
 .csstransforms.csstransitions article.four{
 	-webkit-transform: rotateY(216deg) translateZ(300px);
 	-moz-transform: rotateY(216deg) translateZ(300px);
 	-ms-transform: rotateY(216deg) translateZ(300px);
 	-o-transform: rotateY(216deg) translateZ(300px);
-	transform: rotateY(216deg) translateZ(300px); 
+	transform: rotateY(216deg) translateZ(300px);
 }
 .csstransforms.csstransitions article.five{
 	-webkit-transform: rotateY(288deg) translateZ(300px);
-	-moz-transform: rotateY(288deg) translateZ(300px); 
-	-ms-transform: rotateY(288deg) translateZ(300px); 
-	-o-transform: rotateY(288deg) translateZ(300px); 
-	transform: rotateY(288deg) translateZ(300px);  
+	-moz-transform: rotateY(288deg) translateZ(300px);
+	-ms-transform: rotateY(288deg) translateZ(300px);
+	-o-transform: rotateY(288deg) translateZ(300px);
+	transform: rotateY(288deg) translateZ(300px);
 }
 #portfolio-item-details{
 	display: none;
@@ -561,7 +561,7 @@ label, input, textarea{
 	display: block;
 	width: 80%;
 	margin:auto;
-} 
+}
 label{
 	font-family: Tank;
 	font-size: 1.4em;
@@ -593,7 +593,7 @@ textarea{
 #submit-button a{
 	color:#fff;
 	text-decoration: none;
-} 
+}
 #errormessage{
 	padding:0;
 	text-align: center;
